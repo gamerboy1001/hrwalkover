@@ -1,0 +1,26 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>URL</th>
+        <th>Films</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of results">
+        <td>{{item.name}}</td>
+        <td>{{item.url}}</td>
+        <td>
+        <tr  *ngFor="let films of item.films">
+        <td>
+          {{films}}</td>
+        </tr>
+       
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+

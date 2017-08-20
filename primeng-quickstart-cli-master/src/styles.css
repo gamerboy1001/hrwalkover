@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.greyAccordianContent .ui-widget-content {
+    /* border: 1px solid #D5D5D5; */
+    background: #f9f9f9 !important;
+  
+}
+
+
+.gradAccordianHeader .ui-accordion .ui-accordion-header a{
+	background: linear-gradient(270deg,#2bc0ec,#1b81d7);
+	  color:white;
+}
